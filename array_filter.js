@@ -1,8 +1,10 @@
-function filter(array) {
-    for (let i = 0; i < array.length; i++) {
-        document.write(i.valueOf > 52);
-    }
+function $() {
+    return console.log();
 }
+
+function checkBiggerThan50(numero) {
+    return numero > 50;
+} 
 
 randArray = new array[10];
 
@@ -11,3 +13,10 @@ randArray.forEach(function () {
     randArray.push(element);
     console.log(randArray[i]);
 });
+
+function arrayFilter() {
+    let checkBiggerThan50 = [].concat;
+    document.getElementById("").innerHTML = randArray.filter(checkBiggerThan50);
+    
+}
+
